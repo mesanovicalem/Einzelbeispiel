@@ -32,7 +32,6 @@ public class MainActivity extends AppCompatActivity {
 
                 thread.start();
 
-
                 try {
                     thread.join();
                 } catch (InterruptedException e) {
